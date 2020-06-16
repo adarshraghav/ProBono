@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="1040.0" style="-fx-background-color: #292C4C;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <TextField fx:id="txtUsername" alignment="CENTER" layoutX="613.0" layoutY="370.0" prefHeight="25.0" prefWidth="213.0" promptText="Username">
+      <font>
+         <Font name="System Bold" size="14.0" />
+      </font>
+   </TextField>
+   <PasswordField fx:id="txtPassword" alignment="CENTER" layoutX="613.0" layoutY="434.0" prefHeight="25.0" prefWidth="213.0" promptText="Password">
+      <font>
+         <Font name="System Bold Italic" size="14.0" />
+      </font>
+   </PasswordField>
+   <Label fx:id="lblSign" alignment="CENTER" layoutX="674.0" layoutY="264.0" prefHeight="30.0" prefWidth="99.0" text="Sign In" textAlignment="CENTER">
+      <textFill>
+         <LinearGradient endX="0.10952380952380952" endY="0.8761904761904762" startY="1.0">
+            <stops>
+               <Stop>
+                  <color>
+                     <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.9434782862663269" />
+                  </color>
+               </Stop>
+               <Stop offset="1.0">
+                  <color>
+                     <Color red="1.0" green="1.0" blue="1.0" />
+                  </color>
+               </Stop>
+            </stops>
+         </LinearGradient>
+      </textFill>
+      <font>
+         <Font name="System Bold Italic" size="18.0" />
+      </font>
+   </Label>
+   <Button fx:id="btnEnter" layoutX="687.0" layoutY="501.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="Enter" />
+   <Label fx:id="lblresult" alignment="CENTER" layoutX="655.0" layoutY="94.0" prefHeight="39.0" prefWidth="177.0">
+      <font>
+         <Font name="System Italic" size="24.0" />
+      </font>
+      <textFill>
+         <LinearGradient endX="0.10952380952380952" endY="0.8761904761904762" startY="1.0">
+            <stops>
+               <Stop>
+                  <color>
+                     <Color red="0.9800000190734863" green="0.9800000190734863" blue="0.9800000190734863" opacity="0.9434782862663269" />
+                  </color>
+               </Stop>
+               <Stop offset="1.0">
+                  <color>
+                     <Color red="1.0" green="1.0" blue="1.0" />
+                  </color>
+               </Stop>
+            </stops>
+         </LinearGradient>
+      </textFill>
+   </Label>
+</AnchorPane>

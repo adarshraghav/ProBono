@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="645.0" prefWidth="1040.0" style="-fx-background-color: #292C4C;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projectcode.Hearing">
+   <children>
+      <AnchorPane prefHeight="610.0" prefWidth="1010.0" style="-fx-background-color: #ffffff;" translateX="15.0" translateY="15.0">
+         <children>
+            <VBox prefHeight="50.0" prefWidth="100.0" translateX="425.0">
+               <children>
+                  <Text fill="#292c4c" strokeType="OUTSIDE" strokeWidth="0.0" text="HEARING">
+                     <font>
+                        <Font name="Poppins SemiBold" size="32.0" />
+                     </font>
+                  </Text>
+                  <Line endX="24.0" startX="-100.0" translateX="4.0" />
+               </children>
+            </VBox>
+            <VBox prefHeight="500.0" prefWidth="990.0" translateX="10.0" translateY="70.0">
+               <children>
+                  <HBox prefHeight="42.0" prefWidth="180.0" style="-fx-background-color: #292C4C;">
+                     <children>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Client Name" translateX="25.0" translateY="8.0">
+                           <font>
+                              <Font name="Poppins SemiBold" size="15.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Date Filed" translateX="60.0" translateY="8.0">
+                           <font>
+                              <Font name="Poppins SemiBold" size="15.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Hearing Date" translateX="80.0" translateY="8.0">
+                           <font>
+                              <Font name="Poppins SemiBold" size="15.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Previous Number of Hearing" translateX="96.0" translateY="8.0">
+                           <font>
+                              <Font name="Poppins SemiBold" size="15.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Next Hearing" translateX="110.0" translateY="8.0">
+                           <font>
+                              <Font name="Poppins SemiBold" size="15.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Judge" translateX="150.0" translateY="8.0">
+                           <font>
+                              <Font name="Poppins SemiBold" size="15.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Severity Level" translateX="200.0" translateY="8.0">
+                           <font>
+                              <Font name="Poppins SemiBold" size="15.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="28.0" prefWidth="180.0" style="-fx-background-color: #ffffff;" translateY="7.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Arnav Malhotra" translateX="7.0">
+                           <font>
+                              <Font name="Poppins SemiBold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="14 January" translateX="25.0">
+                           <font>
+                              <Font name="Poppins SemiBold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="2 March" translateX="70.0">
+                           <font>
+                              <Font name="Poppins SemiBold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="5" translateX="240.0">
+                           <font>
+                              <Font name="Poppins SemiBold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="19 May" translateX="360.0">
+                           <font>
+                              <Font name="Poppins SemiBold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Ryan Howard" translateX="400.0">
+                           <font>
+                              <Font name="Poppins SemiBold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="9" translateX="453.0">
+                           <font>
+                              <Font name="Poppins SemiBold" size="16.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </HBox>
+                  <Line endX="880.0" startX="-100.0" translateX="4.0" translateY="8.0" />
+                  <HBox prefHeight="28.0" prefWidth="180.0" style="-fx-background-color: #D3D3D3;" translateY="10.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Jarvis Prem Raj" translateX="7.0" translateY="2.0">
+                           <font>
+                              <Font name="Poppins SemiBold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="25 February" translateX="22.0" translateY="2.0">
+                           <font>
+                              <Font name="Poppins SemiBold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="17 April" translateX="68.0" translateY="2.0">
+                           <font>
+                              <Font name="Poppins SemiBold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="2" translateX="244.0" translateY="2.0">
+                           <font>
+                              <Font name="Poppins SemiBold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="29 July" translateX="363.0" translateY="2.0">
+                           <font>
+                              <Font name="Poppins SemiBold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Jan Gould" translateX="415.0" translateY="2.0">
+                           <font>
+                              <Font name="Poppins SemiBold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="10" translateX="480.0" translateY="2.0">
+                           <font>
+                              <Font name="Poppins SemiBold" size="16.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </HBox>
+                  <Line endX="880.0" startX="-100.0" translateX="4.0" translateY="12.0" />
+                  <HBox prefHeight="28.0" prefWidth="180.0" style="-fx-background-color: #ffffff;" translateY="15.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Srihan Chinta" translateX="14.0">
+                           <font>
+                              <Font name="Poppins SemiBold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="28 January" translateX="38.0">
+                           <font>
+                              <Font name="Poppins SemiBold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="13 May" translateX="88.0">
+                           <font>
+                              <Font name="Poppins SemiBold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="1" translateX="265.0">
+                           <font>
+                              <Font name="Poppins SemiBold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="22 August" translateX="377.0">
+                           <font>
+                              <Font name="Poppins SemiBold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Deacon St. John" translateX="395.0">
+                           <font>
+                              <Font name="Poppins SemiBold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="2" translateX="436.0">
+                           <font>
+                              <Font name="Poppins SemiBold" size="16.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <Button layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#prevSceneh" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #ffffff;" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="54.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/icons8-back-arrow-64.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>
